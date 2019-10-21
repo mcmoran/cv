@@ -5,7 +5,53 @@ body {
   font-weight: 300;
 }
 
-div {
+header {
+  background-color: #1089ff;
+  padding: 30px 30px 50px;
+}
+
+.logo, nav {
+  display: block;
+  width: 49.5%;
+}
+
+.logo {
+  float: left;
+}
+
+.page-title a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 1.2em;
+}
+
+.page-title a:hover, nav li a:hover {
+  text-decoration: underline;
+}
+
+nav {
+  float: right;
+}
+
+nav ul {
+  margin: 0;
+  float: right;
+}
+
+nav li {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+}
+
+nav li a {
+  color: #fff;
+  padding-right: 1em;
+  text-decoration: none;
+}
+
+.content {
   background-color: #e5e5e5;
   display: block;
   margin: 0 auto;
@@ -19,7 +65,7 @@ footer {
   color: #fff;
   text-align: center;
   padding: 20px;
-
+  font-size: 0.8em;
 }
 
 footer a {
