@@ -1,3 +1,28 @@
 body {
-  
+  margin: 0;
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+div {
+  background-color: #e5e5e5;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  padding: 100px;
+}
+
+footer {
+  display: block;
+  background-color: #23374d;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+
+}
+
+footer a {
+  color: #fff;
+  font-family: sans-serif;
 }
