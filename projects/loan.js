@@ -4,8 +4,6 @@ document.getElementById('loan-form').addEventListener('submit', calculateResults
 // Calculate Results function
 function calculateResults(e) {
 
-  console.log('Calculating...');
-
   //UI Vars
   const amount = document.getElementById('amount');
   const interest = document.getElementById('interest');
@@ -30,7 +28,6 @@ function calculateResults(e) {
   } else {
     console.log('Please check your numbers');
   }
-
 
   e.preventDefault();
 }
